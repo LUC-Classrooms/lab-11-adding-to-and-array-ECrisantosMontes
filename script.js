@@ -14,9 +14,9 @@ function setup() { //runs once
 function draw() { // runs 60 times per second 
   background(200);// sets background color
   
-  for(let i = 0; i < dots.length; i++){
-    dots[i].move(); 
-    dots[i].display(); 
+  for(let i = 0; i < dots.length; i++){ //sets array 0 equal to i
+    dots[i].move(); // allows array to move
+    dots[i].display(); // displays array
   }
   textSize(24);
   fill(100, 0, 200);
